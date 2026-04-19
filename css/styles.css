@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+/* HEADER */
+.header{
+    background:#0a3d62;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.header nav a{
+    color:white;
+    margin:0 10px;
+    text-decoration:none;
+}
+
+.header nav a:hover{
+    text-decoration:underline;
+}
+
+/* HERO */
+.hero{
+    height:80vh;
+    background:url("../img/playa.jpg") center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h2{
+    font-size:40px;
+}
+
+/* SECCIONES */
+.seccion{
+    padding:40px 20px;
+}
+
+.seccion article{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* IMÁGENES */
+.seccion img{
+    width:48%;
+    margin:1%;
+    border-radius:10px;
+}
+
+/* GALERÍA */
+.grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+}
+
+.grid img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* FORM */
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+form input, form textarea{
+    margin:10px 0;
+    padding:10px;
+}
+
+form button{
+    background:#0a3d62;
+    color:white;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+}
+
+/* FOOTER */
+.footer{
+    background:#0a3d62;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
